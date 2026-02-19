@@ -8,4 +8,8 @@ psycopg2-binary==2.9.11
 python-decouple==3.8
 sqlparse==0.5.5
 tzdata==2025.3
+<<<<<<< HEAD
 whitenoise==6.11.0
+=======
+whitenoise==6.7.0
+>>>>>>> 37ed1cc9048feb0407aba33612cbaef6de966480

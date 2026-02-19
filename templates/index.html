@@ -328,6 +328,7 @@
                         </div>-->
     
                         <!-- post 2 -->
+                        {% if posts %}
                         {% for post in posts reversed %}
                         <div class="bg-white shadow rounded-md  -mx-2 lg:mx-0">
     
@@ -429,6 +430,10 @@
     
                         </div>
                         {% endfor %}
+                        {% else %}
+                        <h1>No Post Feed. Follow atleast 1 account to start seeing post feeds.</h1>
+
+                        {% endif %}
                         <!-- Load more-->
                         <div class="flex justify-center mt-6" id="toggle" hidden>
                             <a href="#"
